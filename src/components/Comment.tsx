@@ -42,7 +42,7 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
             </button>
           </header>
 
-          <p>Content</p>
+          <p>{content}</p>
         </div>
         <footer>
           <button onClick={handleLikeComment}>
